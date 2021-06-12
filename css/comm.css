@@ -1,0 +1,102 @@
+.center {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.center-img {
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#title {
+    font-size: 4rem !important;
+    font-weight: 700;
+    margin-top: 1rem;
+    text-align: center;
+    transition: 1.3s;
+}
+
+code {
+    font-weight: 300;
+    color: rgb(75, 253, 105);
+    background-color: #3d334948;
+    padding: 0.35rem;
+    border-radius: 0.2rem;
+}
+
+.table-content {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 500px;
+    border-radius: 10px 10px 5px 5px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.hover:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px 0 rgba(3, 0, 26, 0.61);
+}
+
+.table-content thead tr {
+    background-color: rgb(56, 13, 80);
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table-content th,
+.table-content td {
+    padding: 12px 15px;
+}
+
+.table-content tbody tr {
+    border-bottom: 1px solid rgba(220, 20, 60, 0.76);
+    transition: 0.2s;
+}
+
+.table-content tbody tr:nth-of-type(odd) {
+    background-color: rgba(13, 17, 80, 0.185);
+}
+
+.table-content tbody tr:nth-of-type(even) {
+    background-color: rgba(38, 30, 114, 0.37);
+}
+
+.table-content tbody tr:last-of-type {
+    border-bottom: 3px solid rgb(56, 13, 80);
+    ;
+}
+
+.table-content tbody tr:hover {
+    color: rgb(255, 142, 195);
+}
+
+.commbase {
+    width: 700px;
+    height: auto;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 700px) {
+    .table-content {
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.7em;
+        min-width: 0;
+        width: 300px;
+        border-radius: 10px 10px 5px 5px;
+        overflow: hidden;
+        transition: 0.3s;
+    }
+
+    .commbase {
+        width: 300px;
+        height: auto;
+        border-radius: 30px;
+        transition: 0.3s;
+    }
+}

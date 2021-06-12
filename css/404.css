@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&display=swap');
+
+* {
+    font-family: 'Farro', sans-serif;
+}
+
+#title3 {
+    font-size: 15rem;
+    font-weight: 700;
+    text-align: center;
+    color: crimson;
+}
+
+#subtitle2 {
+    font-size: 8rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+#subtitle3 {
+    font-size: 2.00rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    #title3 {
+      font-size: 6rem;
+    }
+    #subtitle2 {
+        font-size: 3rem;
+      }
+      #subtitle3 {
+        font-size: 1.2rem;
+      }
+  }
+
+  

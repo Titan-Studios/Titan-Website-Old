@@ -1,0 +1,248 @@
+.slider {
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slides {
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 20%;
+    transition: 1s;
+}
+
+.slide img {
+    width: auto;
+    height: 500px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-manual {
+    position: absolute;
+    margin-top: -40px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid rgb(67, 228, 139);
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background: rgb(67, 228, 139);
+}
+
+#radio1:checked~.first {
+    margin-left: 0;
+}
+
+#radio2:checked~.first {
+    margin-left: -20%;
+}
+
+#radio3:checked~.first {
+    margin-left: -40%;
+}
+
+.nav-auto {
+    position: absolute;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    margin-top: 460px;
+}
+
+.nav-auto div {
+    border: 2px solid rgb(67, 228, 139);
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .nav-auto .auto-btn1 {
+    background: rgb(67, 228, 139);
+}
+
+#radio2:checked ~ .nav-auto .auto-btn2 {
+    background: rgb(67, 228, 139);
+}
+
+#radio3:checked ~ .nav-auto .auto-btn3 {
+    background: rgb(67, 228, 139);
+}
+
+
+.slider1 {
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slides1 {
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+.slides1 input {
+    display: none;
+}
+
+.slide1 {
+    width: 20%;
+    transition: 1s;
+}
+
+.slide1 img {
+    width: auto;
+    height: 500px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-manual1 {
+    position: absolute;
+    margin-top: -40px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn1 {
+    border: 2px solid rgb(67, 228, 139);
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.manual-btn1:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn1:hover {
+    background: rgb(67, 228, 139);
+}
+
+#rradio1:checked~.first {
+    margin-left: 0;
+}
+
+#rradio2:checked~.first {
+    margin-left: -20%;
+}
+
+.nav-auto1 {
+    position: absolute;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    margin-top: 460px;
+}
+
+.nav-auto1 div {
+    border: 2px solid rgb(67, 228, 139);
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav-auto1 div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#rradio1:checked ~ .nav-auto1 .auto-btn1 {
+    background: rgb(67, 228, 139);
+}
+
+#rradio2:checked ~ .nav-auto1 .auto-btn2 {
+    background: rgb(67, 228, 139);
+}
+
+@media screen and (max-width: 700px) {
+    .slider {
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+        overflow: hidden;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .slides {
+        width: 500%;
+        height: 500px;
+        display: flex;
+    }
+
+    .slide img {
+        width: auto;
+        height: 200px;
+        border-radius: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .slider1 {
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+        overflow: hidden;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .slides1 {
+        width: 500%;
+        height: 500px;
+        display: flex;
+    }
+
+    .slide1 img {
+        width: auto;
+        height: 200px;
+        border-radius: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
