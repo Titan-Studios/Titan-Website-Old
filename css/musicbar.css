@@ -1,0 +1,233 @@
+.musicbar {
+    background-image: linear-gradient(90deg, rgb(20, 0, 34) 0%, rgb(21, 2, 90) 50%, rgb(58, 21, 92) 100%);
+    color: #eee;
+    border-radius: 2rem;
+    padding: 0.5rem 1.5rem;
+    margin: 1rem;
+    margin-bottom: 0;
+}
+
+.musicbar a {
+    color: white !important;
+    transition: 0.1s;
+}
+
+.musicbar a:hover {
+    color: rgb(70, 255, 215) !important;
+}
+
+.musicbar .disabled {
+    color: rgba(255, 255, 255, 0.568) !important;
+}
+
+.body-content {
+    margin-top: 15px;
+}
+
+.body-content .music-title {
+    background-image: linear-gradient(90deg, rgb(20, 0, 34) 0%, rgb(21, 2, 90) 50%, rgb(58, 21, 92) 100%);
+    color: #eee;
+    border-radius: 2rem;
+    padding: 1rem 1.5rem;
+    margin: 1rem;
+    margin-bottom: 0;
+    display: flex;
+    overflow: hidden;
+}
+
+.body-content .music-title span {
+    font-size: 1rem;
+}
+
+.body-content .music-title span:nth-child(1),
+.body-content .list-block span:nth-child(1) {
+    width: 8% !important;
+}
+
+.body-content .music-title span:nth-child(2),
+.body-content .list-block span:nth-child(2) {
+    width: 8% !important;
+}
+
+.body-content .music-title span:nth-child(3),
+.body-content .list-block span:nth-child(3) {
+    width: 35% !important;
+}
+
+.body-content .music-title span:nth-child(4),
+.body-content .list-block span:nth-child(4) {
+    width: 16% !important;
+}
+
+.body-content .music-title span:nth-child(5),
+.body-content .list-block span:nth-child(5) {
+    width: 16% !important;
+}
+
+.body-content .music-title span:nth-child(6),
+.body-content .list-block span:nth-child(6) {
+    width: 16% !important;
+}
+
+.body-content .list-block {
+    position: relative;
+    background: linear-gradient(90deg, rgb(20, 0, 34) 0%, rgb(21, 2, 90) 50%, rgb(39, 6, 70) 100%);
+    color: #eee;
+    border-radius: 2rem;
+    padding: 1rem 1.5rem;
+    margin: 1rem;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.body-content .list-block {
+    font-size: 1rem;
+}
+
+.body-content .song-beat ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.body-content .song-beat ul li {
+    list-style: none;
+    height: 30px;
+    width: 3px;
+    background: rgb(37, 255, 208);
+    display: inline-block;
+    margin: 0 1px;
+    transform-origin: bottom;
+    opacity: 0;
+    animation: beat 0.7s linear 0s infinite;
+    animation-play-state: paused;
+}
+
+@keyframes beat {
+    20% {
+        background: rgb(37, 255, 48);
+    }
+
+    40% {
+        background: rgb(240, 255, 37);
+    }
+
+    50% {
+        transform: scaleY(0);
+    }
+
+    60% {
+        background: rgb(255, 37, 37);
+    }
+
+    80% {
+        background: rgb(175, 37, 255);
+    }
+}
+
+.body-content .song-beat li:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.body-content .song-beat li:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.body-content .song-beat li:nth-child(3) {
+    animation-delay: 0.1s;
+}
+
+.body-content .song-beat li:nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+.body-content .list-block.isPlaying {
+    box-shadow: 0 0 12px rgba(188, 129, 255, 0.534) !important;
+}
+
+.body-content span.play {
+    text-align: center;
+}
+
+.body-content span.play .play-btn {
+    text-align: center;
+    cursor: pointer;
+    transition: all ease;
+}
+
+.body-content span.play .pause-btn {
+    display: none;
+}
+
+.body-content .list-block.isPlaying span.play {
+    color: rgb(140, 255, 130);
+}
+
+.body-content .list-block .song-track {
+    display: none;
+}
+
+.music-list {
+    height: 500px;;
+    overflow-y: scroll;
+}
+
+.music-list::-webkit-scrollbar {
+    width: 8px;
+    background: transparent;
+}
+
+.music-list::-webkit-scrollbar-button {
+    display: none;
+}
+
+.song-link a {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.song-link a .fa-spotify:hover {
+    color: #1DB954;
+}
+
+.pad {
+    padding: 0 15px;
+}
+
+@media screen and (max-width: 700px) {
+
+    .title-music {
+        display: none;
+    }
+
+    .body-content .music-title span:nth-child(1),
+    .body-content .list-block span:nth-child(1) {
+        width: 16% !important;
+    }
+
+    .body-content .music-title span:nth-child(2),
+    .body-content .list-block span:nth-child(2) {
+        display: none;
+    }
+
+    .body-content .music-title span:nth-child(3),
+    .body-content .list-block span:nth-child(3) {
+        width: 50% !important;
+    }
+
+    .body-content .music-title span:nth-child(4),
+    .body-content .list-block span:nth-child(4) {
+        width: 16% !important;
+    }
+
+    .body-content .music-title span:nth-child(5),
+    .body-content .list-block span:nth-child(5) {
+        display: none;
+    }
+
+    .body-content .music-title span:nth-child(6),
+    .body-content .list-block span:nth-child(6) {
+        display: none;
+    }
+}

@@ -198,23 +198,17 @@
 @media screen and (max-width: 700px) {
     .slider {
         width: 300px;
-        height: 200px;
+        height: 215px;
         border-radius: 10px;
         overflow: hidden;
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
-    
-    .slides {
-        width: 500%;
-        height: 500px;
-        display: flex;
-    }
 
     .slide img {
         width: auto;
-        height: 200px;
+        height: 215px;
         border-radius: 10px;
         display: block;
         margin-left: auto;
@@ -223,26 +217,44 @@
 
     .slider1 {
         width: 300px;
-        height: 200px;
+        height: 215px;
         border-radius: 10px;
         overflow: hidden;
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
-    
-    .slides1 {
-        width: 500%;
-        height: 500px;
-        display: flex;
-    }
 
     .slide1 img {
         width: auto;
-        height: 200px;
+        height: 215px;
         border-radius: 10px;
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .nav-manual {
+        width: 300px;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .nav-manual1 {
+        width: 300px;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .nav-auto {
+        width: 300px;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .nav-auto1 {
+        width: 300px;
+        opacity: 0;
+        pointer-events: none;
     }
 }
