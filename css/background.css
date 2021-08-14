@@ -20,7 +20,7 @@
     list-style: none;
     width: 25px;
     height: 25px;
-    border-radius: 100%;
+    border-radius: 5%;
     background: rgb(255, 255, 255);
     animation: animate 20s linear infinite;
     bottom: -300px;

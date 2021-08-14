@@ -403,7 +403,7 @@ a:hover {
 
 .btn {
     border-width: 3px;
-    transition: 0.2s;
+    transition: 0.1s;
 }
 
 .btn:hover {

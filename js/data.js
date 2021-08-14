@@ -1,5 +1,13 @@
 const songlist = {
     '01': {
+        title: 'Calm',
+        artist: 'DSTitan',
+        genre: 'Lofi',
+        duration: '1:35',
+        track: 'Calm.mp3',
+        link: 'https://open.spotify.com/track/79cNYzqoXvrNlTpKn4LVHU?si=167f9cd39c644fa0'
+    },
+    '02': {
         title: 'Cool Breeze',
         artist: 'DSTitan',
         genre: 'Lofi',
@@ -7,7 +15,7 @@ const songlist = {
         track: 'Cool_Breeze.mp3',
         link: 'https://open.spotify.com/track/5EFI1yHOTaRuewhoyKVATY?si=3fc612df03cf4c41'
     },
-    '02': {
+    '03': {
         title: 'Sleepy',
         artist: 'DSTitan',
         genre: 'Lofi',
@@ -15,7 +23,7 @@ const songlist = {
         track: 'Sleepy.mp3',
         link: 'https://open.spotify.com/track/3oID7RP1kQKTxS0CcaBeYP?si=e96689f5745d4c19'
     },
-    '03': {
+    '04': {
         title: 'Lost',
         artist: 'DSTitan',
         genre: 'Lofi',
@@ -23,7 +31,7 @@ const songlist = {
         track: 'Lost.mp3',
         link: 'https://open.spotify.com/track/5EAwDggmyPHTbvZ5r0wOTk?si=40bfd5b7357542a7'
     },
-    '04': {
+    '05': {
         title: 'Kitty Pop',
         artist: 'DSTitan',
         genre: 'Electro',
@@ -31,7 +39,7 @@ const songlist = {
         track: 'Kitty_Pop.mp3',
         link: 'https://open.spotify.com/track/2uHZGIS6AlqhaBXZ8zOpqL?si=d8e8537f5d824de7'
     },
-    '05': {
+    '06': {
         title: 'Wave',
         artist: 'DSTitan',
         genre: 'Electro',

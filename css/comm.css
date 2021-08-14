@@ -25,6 +25,21 @@ code {
     border-radius: 0.2rem;
 }
 
+.gallery {
+    text-align: center;
+}
+
+.gallery img {
+    height: 175px;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    transition: 0.3s;
+}
+
+.gallery img:hover {
+    border-radius: 0.5rem;
+}
+
 .table-content {
     border-collapse: collapse;
     margin: 25px 0;
@@ -36,8 +51,7 @@ code {
 }
 
 .hover:hover {
-    transform: scale(1.03);
-    box-shadow: 0 10px 20px 0 rgba(3, 0, 26, 0.61);
+    box-shadow: 0 0 20px -5px rgba(208, 139, 255, 0.507);
 }
 
 .table-content thead tr {
@@ -57,6 +71,11 @@ code {
     transition: 0.2s;
 }
 
+.table-content tbody td.td {
+    border-left: 3px solid rgb(56, 13, 80);
+    transition: 0.2s;
+}
+
 .table-content tbody tr:nth-of-type(odd) {
     background-color: rgba(13, 17, 80, 0.185);
 }
@@ -67,11 +86,14 @@ code {
 
 .table-content tbody tr:last-of-type {
     border-bottom: 3px solid rgb(56, 13, 80);
-    ;
 }
 
 .table-content tbody tr:hover {
     color: rgb(255, 142, 195);
+}
+
+.table-content tbody tr:hover td.td {
+    color: rgb(137, 255, 239);
 }
 
 .commbase {

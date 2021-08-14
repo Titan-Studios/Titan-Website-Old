@@ -18,3 +18,11 @@
         transform: scaleX(0.1);
     }
 }
+
+.gallery {
+    margin: 2rem 0;
+}
+
+.less-color {
+    opacity: 0.5;
+}
